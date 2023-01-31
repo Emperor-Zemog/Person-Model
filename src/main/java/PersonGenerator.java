@@ -15,8 +15,6 @@ public class PersonGenerator {
         int birthYear = 0;
         ArrayList<Person> people = new ArrayList<Person>();
         String pronouns="";
-
-
         Boolean done = false;
         Scanner pipe = new Scanner(System.in);
         File pFile;
