@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.*;
 public class PersonReader {
+
     public static void main (String[] args)  throws IOException{
         int fileIndex = 0;
         int mode=1;

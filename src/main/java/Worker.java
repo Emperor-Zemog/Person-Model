@@ -34,7 +34,7 @@ public class Worker extends Person{
             normalPay=hourlyPayRate*normalHours;
             overtimePay= 1.5*hourlyPayRate*overtimeHours;
             normal = "Normal Hours Worked: "+normalHours+ " Normal Pay: "+normalPay;
-            overtime= "Overtime Hours Worked: "+overtimeHours+" Overtime Pay: "+overtimePay;
+            overtime= " Overtime Hours Worked: "+overtimeHours+" Overtime Pay: "+overtimePay;
 
         }else{
             normalHours = hoursWorked;
